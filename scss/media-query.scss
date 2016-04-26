@@ -1,0 +1,253 @@
+@media (max-width: 1200px) {
+#quienes-somos h2 span.line-1 {
+    font-size: 50px;
+    color: #dbdbdb;
+    text-shadow: #000 0 0 12px;
+  }
+  #quienes-somos h2 span.line-2 {
+    font-size: 80px;
+    color: #f7f7f7;
+    text-shadow: #000 0 0 12px;
+  }
+  #quienes-somos h2 span.line-3 {
+    font-size: 80px;
+    color: #f7f7f7;
+    text-shadow: #000 0 0 12px;
+  }
+
+#quienes-somos p {
+    font-size: 20px;
+    line-height: 1em;
+    text-shadow: #dbdbdb 0 0 8px;
+}
+
+section#quienes-somos {
+    background-position: 500px 30px!important;
+    background-size: cover;
+}
+
+img.illustration {
+    width: 30%;
+    right: 0;
+    z-index: 1;
+}
+
+img.title {
+    width: 40%;
+}
+section#clientes {
+    padding: 5%;
+}
+
+#creatividad h2 {
+    padding: 5%;
+    z-index: 10;
+}
+section#procesos {
+    padding: 20% 10%;
+}
+header.sticky {
+    text-align: left;
+}
+}
+
+@media (max-width: 1024px){
+.wrapper {
+    max-width: 100%;
+}
+
+section#procesos {
+     background-size: cover;
+    background-position: center!important;
+}
+
+#creatividad img.illustration {
+    right: 5%;
+}
+
+#creatividad img.title {
+        top: 2%;
+    right: 4%;
+}
+
+#diseno-publicitario img.illustration {
+    left: 70%;
+}
+
+#diseno-digital img.title {
+    right: 35%;
+}
+#tipografia img.title {
+    left: 5%;
+}
+img.title {
+    width: 60%;
+}
+
+#fotografia img.title {
+    left: 5%;
+}
+#main-section img {
+    max-width: 30%;
+    margin: 0 0 120px 0;
+}
+}
+
+@media (max-width: 860px) {
+	header.sticky {
+    height: 65px;
+}
+
+.cd-nav-trigger {width: 40px;height: 40px;}
+
+.cd-stretchy-nav .stretchy-nav-bg {
+    height: 40px;
+    width: 40px;
+}
+.cd-stretchy-nav ul a {
+    padding: 0 calc(1em + 30px) 0 1em;
+}
+
+.cd-stretchy-nav ul a::after {
+    right: 10px;
+}
+	#creatividad h2 {
+    width: 50%;
+}
+
+#creatividad img.title {
+    top: 9%;
+    z-index: 10;
+}
+
+#creatividad img.illustration {
+    width: 50%;
+}
+
+#produccion img.title {
+    width: 70%;
+    top: 12%;
+}
+
+#produccion img.illustration {
+    left: -14%;
+    width: 50%;
+}
+
+#diseno-publicitario img.title {
+    width: 80%;
+    top: 13%;
+    left: 11%;
+}
+
+#tipografia img.title {
+    width: 80%;
+    top: 15%;
+}
+
+#fotografia img.title {
+    top: 15%;
+}
+
+#diseno-digital img.title {
+    top: 10%;
+    width: 70%;
+    left: 10%;
+}
+#quienes-somos h2 span.line-3 {
+    font-size: 55px;
+}
+
+#quienes-somos p {
+    font-size: 20px;
+    line-height: 1.2em;
+    width: 50%;
+}
+
+h2.section-title {
+	font-size: 35px;
+}
+section#quienes-somos {
+    background-position: 116px 0px !important;
+}
+@-webkit-keyframes backgroundScrollCreat {
+0% {background-position: bottom;}
+50% {background-position:  bottom;}
+100% {background-position: bottom;}
+}
+@-webkit-keyframes backgroundScrollProd {
+0% {background-position: bottom;}
+50% {background-position:  bottom;}
+100% {background-position: bottom;}
+}
+@-webkit-keyframes backgroundScrollPubli  {
+0% {background-position: bottom;}
+50% {background-position:  bottom;}
+100% {background-position: bottom;}
+}
+@-webkit-keyframes backgroundScrollTipo {
+0% {background-position: bottom;}
+50% {background-position:  bottom;}
+100% {background-position: bottom;}
+}
+}
+
+@media (max-width: 500px) {
+header.sticky .brand {
+    max-width: 150px;
+}
+
+header.sticky {
+}
+
+#quienes-somos h2 span.line-2 {
+    font-size: 50px;
+}
+
+#quienes-somos h2 span.line-1 {
+    font-size: 30px;
+}
+
+#quienes-somos h2 span.line-3 {
+    font-size: 35px;
+    margin-top: 7px;
+}
+
+#quienes-somos p {
+    font-size: 13px;
+    width: 100%;
+}
+
+section#quienes-somos {
+    background-position: 85px  0px !important;
+}
+
+#creatividad h2 span.line-1 {
+    font-size: 40px;
+}
+
+#creatividad h2 {
+  width: 100%;
+  top: 35%;
+  padding: 10px;
+}
+#creatividad p.texto-section {
+    width: 100%;
+    bottom: 40%;
+    font-size: 15px;
+    padding: 10px;
+}
+
+#creatividad .social {
+    bottom: 32%;
+}
+
+#creatividad h2 span.line-2 {
+    font-size: 50px;
+}
+
+#creatividad img.title {
+    top: 10%;
+    width: 70%;
+}
+}
